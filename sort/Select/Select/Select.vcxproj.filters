@@ -19,13 +19,22 @@
     <Filter Include="소스 파일\dnc">
       <UniqueIdentifier>{6bc56af6-6a2e-451a-856e-48204fe20f32}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\dnc\quick">
+      <UniqueIdentifier>{46cda600-ce96-48f3-bfee-15073269a08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\dnc\merge">
+      <UniqueIdentifier>{0c47a8ce-b8e3-4dbb-b094-78dcf0ab6c48}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Select.cpp">
       <Filter>소스 파일\Sort</Filter>
     </ClCompile>
     <ClCompile Include="quick.cpp">
-      <Filter>소스 파일\dnc</Filter>
+      <Filter>소스 파일\dnc\quick</Filter>
+    </ClCompile>
+    <ClCompile Include="merge.cpp">
+      <Filter>소스 파일\dnc\merge</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

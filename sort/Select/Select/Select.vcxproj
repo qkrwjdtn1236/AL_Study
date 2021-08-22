@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="merge.cpp" />
     <ClCompile Include="Select.cpp" />
     <ClCompile Include="quick.cpp" />
   </ItemGroup>
